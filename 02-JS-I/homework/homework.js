@@ -105,7 +105,7 @@ function esPar(num) {
   if( num % 2 === 0) {
     return true;
   } else {
-    return false:
+    return false;
   }
 }
 
@@ -233,7 +233,7 @@ function esVocal(letra){
   if(letra.length > 1){
     return "Dato incorrecto"
   }
-  if(letra === "a" || letra === "e" || letra === "i" || letra "o" || letra "u"){
+  else if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal"
   }
   return "Dato correcto"
